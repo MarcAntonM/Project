@@ -1,14 +1,29 @@
+body {
+  background-color: black;
+}
+
 h1 {
-    color: rgb(0, 0, 0);
+    color: rgb(244, 0, 0);
     text-align: center;
   }
 
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Lato', sans-serif;
-font-family: 'Roboto Mono', monospace;
+p {
+  color: rgb(92, 92, 92);
+}
+
+ body{
+  font-family: 'Roboto', sans-serif;
+} 
+
+.intro{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
 
   .card{
-    background-color: rgb(0, 255, 128);
+    background-color: rgb(77, 255, 0);
 }
 
 .centre{
