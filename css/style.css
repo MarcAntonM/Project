@@ -1,96 +1,101 @@
 body {
-  background-color: black;
-}
-
-h1 {
-    color: rgb(244, 0, 0);
-    text-align: center;
+    background-color: black;
+  }
+  
+  h1 {
+      color: rgb(244, 0, 0);
+      text-align: center;
+    }
+  
+  p {
+    color: rgb(92, 92, 92);
+  }
+  
+   body{
+    font-family: 'Roboto', sans-serif;
+  } 
+  
+  .intro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+  }
+  
+    .card{
+      background-color: rgb(77, 255, 0);
+  }
+  
+  .centre{
+      display: block;
+      margin-top: 25%;
+      margin-left: auto;
+      margin-right: auto;
+      width: 200px;
+  }
+  
+  .card{
+      margin-top: 25%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 300px;
+  }
+  
+  .main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Hydro page */            
+  
+  
+  
+  #hydroEnergyPara {
+      text-align:centre;
+  }
+  
+  /* Wind Turbine page */ 
+  
+  .wtContainer {
+      display: flex; 
+      max-width: 70%; 
+      margin: 20px auto; 
+      align-items: center; 
+  }
+  
+  .scaled-image {
+      width: auto; 
+      height: 100%; 
+      max-height: 200px;
+      margin-left: 10px; 
+      margin-right: 10px; 
+      align-self: center; 
+      margin-top: 50px; 
+  }
+  
+  .wtText {
+      flex: 1; 
+      margin-left: 10px; 
+  }
+  
+  #wtPara {
+      margin: 0; 
+      width: 90%;
+      margin-left: 10px;
+      color: lightgray;
+  }
+  
+  #wtPoints {
+      text-decoration: underline;
+      font-weight: bolder;
+      color: white;
   }
 
-p {
-  color: rgb(92, 92, 92);
-}
+#wtYear{
+    color: red;
+  }
 
- body{
-  font-family: 'Roboto', sans-serif;
-} 
-
-.intro{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
-}
-
-  .card{
-    background-color: rgb(77, 255, 0);
-}
-
-.centre{
-    display: block;
-    margin-top: 25%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-}
-
-.card{
-    margin-top: 25%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-}
-
-.main {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Hydro page */            
-
-.hydroEnergy {
-    text-color:;
-}
-
-#hydroEnergyPara {
-    text-align:centre;
-}
-
-/* Wind Turbine page */ 
-
-.wtContainer {
-    display: flex; 
-    max-width: 70%; 
-    margin: 20px auto; 
-    align-items: center; 
-}
-
-.scaled-image {
-    width: auto; 
-    height: 100%; 
-    max-height: 200px;
-    margin-left: 10px; 
-    margin-right: 10px; 
-    align-self: center; 
-    margin-top: 50px; 
-}
-
-.wtText {
-    flex: 1; 
-    margin-left: 10px; 
-}
-
-#wtPara {
-    margin: 0; 
-    width: 90%;
-    margin-left: 10px;
-}
-
-#wtPoints {
-    text-decoration: underline;
-    color: #4C4E52;
-}
-
-
+#wtEvent{
+    c
