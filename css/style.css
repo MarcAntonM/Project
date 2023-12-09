@@ -58,7 +58,7 @@ body {
   
   /* Wind Turbine page */ 
   
-  .wtContainer {
+ .wtContainer {
       display: flex; 
       max-width: 70%; 
       margin: 20px auto; 
@@ -100,4 +100,3 @@ body {
 #wtEvent{
     color:  gray;
 }
-
