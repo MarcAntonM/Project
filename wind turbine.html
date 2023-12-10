@@ -33,8 +33,6 @@
         </div>
       </nav>
           
-
-<body>
     <h1 id="wtTitle">Title</h1><br>
 
     <div class="wtContainer">
@@ -48,7 +46,7 @@
 </div>
         <div class="wtContainer">
             <div class="wtText">
-                <h3 id="wtYear1">1888</h3>
+                <h3 id="wtYear1">Year</h3>
                 <h4 id="wtEvent">Charles Brush pioneering the turbine</h4>
                 <p id="wtPoints">Charles F. Brush and the Pioneering Large-Scale Wind Turbine</p>
                 <p id="wtPara">In the late 19th century, Charles F. Brush played a pivotal role in ushering in the modern era of wind turbines with the construction of the world's first large-scale wind turbine in 1888.</p> <br>
@@ -59,7 +57,7 @@
 
         <div class="wtContainer">
             <div class="wtText">
-                <h3 id="wtYear2">1941</h3>
+                <h3 id="wtYear2">Year</h3>
                 <h4 id="wtEvent">Smith-Putnam: The Megawatt Milestone</h4>
                 <p id="wtPoints">Technological Breakthrough and Scaling Up</p>
                     <p id="wtPara">In 1941, the Smith-Putnam wind turbine in Vermont achieved a historic milestone by becoming the world's first megawatt-scale wind turbine.</p> <br>
@@ -74,7 +72,7 @@
 
         <div class="wtContainer">
             <div class="wtText">
-                <h3 id="wtYear3">1970</h3>
+                <h3 id="wtYear3">Year</h3>
                 <h4 id="wtEvent">The Oil Crisis and Denmark's Leadership.</h4>
                 <p id="wtPoints">Oil Crisis Sparks Renewable Energy Interest</p>
                 <p id="wtPara">The oil crisis of the 1970s triggered a global shift towards alternative energy sources as nations sought to reduce dependence on fossil fuels.</p> <br>
@@ -88,7 +86,7 @@
 
         <div class="wtContainer">
             <div class="wtText">
-                <h3 id="wtYear4">1980</h3>
+                <h3 id="wtYear4">Year</h3>
                 <h4 id="wtEvent">The Rise of the Three-Bladed Turbine</h4>
                 <p id="wtPoints">Global commercialization</p>
                 <p id="wtPara">In the 1980s, wind energy underwent global commercialization, marking a significant phase in its adoption as a mainstream power source.</p><br>
@@ -105,7 +103,7 @@
                 <h4 id="wtEvent">Global Expansion and Commercial Growth</h4>
                 <p id="wtPoints">Government Support Fuels Global Expansion</p> <br>
                 <p id="wtPara">In the 1980s, governments worldwide initiated substantial support for wind energy projects by introducing subsidies and incentives.</p> <br>
-                <p id="wtPara">This era witnessed a transformative shift as the backing of governments played a pivotal role in fostering the commercial growth of wind energy, contributing to its widespread adoption on a global scale.</p>
+                <p id="wtPara">This era witnessed a transformative shift as the backing of governments played a pivotal role in fostering the commercial growth of wind energy, contributing to its widespread adoption on a global scale.</p> <br>
                 <p id="wtPoints">Wind Turbines as Key Contributors to Global Energy Landscape</p>
                 <p id="wtPara">The 1980s marked a turning point as wind turbines evolved into a vital contributor to the global energy landscape.</p>
                 <p id="wtPara">With governments actively supporting wind energy initiatives, the commercial growth of wind turbines became increasingly evident, solidifying their position as a significant and sustainable source of energy on a global scale.</p>
@@ -115,7 +113,7 @@
         
         <div class="wtContainer">
             <div class="wtText">
-                <h3 id="wtYear5">2000</h3>
+                <h3 id="wtYear5">Year</h3>
                 <h4 id="wtEvent">21st Century Technological Advancements</h4>
                 <p id="wtPoints">Global Surge in Wind Power Capacity</p>
                 <p id="wtPara">The 21st century witnessed a substantial surge in global wind power capacity, reflecting the rapid growth and adoption of wind energy.</p> <br>
@@ -129,7 +127,7 @@
 
         <div class="wtContainer">
             <div class="wtText">
-                <h3 id="wtYear6">The Future</h3>
+                <h3 id="wtYear6">Year</h3>
                 <h4 id="wtEvent">Offshore Wind Farms and the Future</h4>
                 <p id="wtPoints">Offshore Wind Farms as Crucial Contributors</p>
                 <p id="wtPara">Wind turbines have become indispensable in the contemporary renewable energy landscape, and offshore wind farms have emerged as significant contributors.</p> <br>
@@ -141,9 +139,41 @@
             <img src="images\offshore.jpg" class="scaled-image">
         </div>
 
-        <button onclick="scrollToTop()">Scroll to Top</button>
+        <div class="wtContainer">
+          <img src="images/wtdiagram.jpg" alt="Image Description" class="wtDiagram">
+          
+          <div class="wtTxtCont">
+            <h2 id="wtPoints">Key Components of a Wind Turbine</h2>
+            <button onclick="cycleText()" id="wtButton">Click Here</button>
+            
+            <div id="wtMoreInfo" class="wtHidden">
+              <p class="wtDtext" id="wtPara"></p>
+            </div>
+          </div>
+        </div>
+       <button onclick="scrollToTop()">Scroll to Top</button>      
 
-  <script>
+        <script>
+          var texts = [
+            "The blade of a wind turbine captures the kinetic energy of the wind, causing the rotor to spin and drive a generator, ultimately converting the wind's energy into electrical power.",
+            "The nacelle of a wind turbine houses the generator, gearbox, and other essential components, playing a crucial role in converting the rotational energy from the rotor into electrical power.",
+            "The hub of a wind turbine serves as the central connecting point for the rotor blades, facilitating their attachment and enabling their collective rotation to harness wind energy and drive the generator within the nacelle.", "The tower of a wind turbine provides structural support, elevating the rotor and nacelle to higher altitudes where wind speeds are typically stronger, allowing for more efficient harnessing of wind energy for electricity generation", "A wind vane is a weather instrument with a rotating flat or arrow-shaped plate that freely aligns itself with the wind, providing a visual indicator of wind direction.", "An anemometer is a device used to measure the speed of the wind, typically employing rotating cups or blades that spin in response to the wind's force.", "A gearbox in the context of a wind turbine is a mechanical component that increases the rotational speed of the rotor, which is driven by the wind, to a speed suitable for the generator, facilitating the efficient conversion of kinetic energy into electrical power.", "A low-speed drive shaft in a wind turbine is a component that transmits the relatively slow rotational motion generated by the rotor to the high-speed shaft, effectively increasing the speed to a level suitable for optimal power generation in the generator.", "The yaw system in a wind turbine is a mechanism responsible for orienting the turbine nacelle and rotor into the wind, ensuring optimal wind capture efficiency by adjusting the turbine's direction in response to changing wind conditions.", "The generator in a wind turbine is a crucial component that converts the mechanical energy generated by the rotating rotor into electrical energy, utilizing electromagnetic induction principles to produce electricity for power distribution.", "A high-speed drive shaft in a wind turbine is a component that transmits the rapid rotational motion generated by the rotor to the generator, allowing for the efficient conversion of kinetic energy into electrical power at higher rotational speeds."
+          ];
+      
+          function cycleText() {
+            var wtMoreInfo = document.getElementById("wtMoreInfo");
+            var wtDtext = document.getElementsByClassName("wtDtext")[0];
+      
+            // Display the hidden div
+            wtMoreInfo.style.display = "block";
+      
+            // Get a random index from the 'texts' array
+            var randomIndex = Math.floor(Math.random() * texts.length);
+      
+            // Set the text content to the randomly selected text
+            wtDtext.textContent = texts[randomIndex];
+          }
+
     document.getElementById("wtTitle").innerHTML = "History of Wind Turbines";
     document.getElementById("wtYear1").innerHTML = "1888";
     document.getElementById("wtYear2").innerHTML = "1941";
@@ -162,4 +192,5 @@
 
 </body>
 </html>
+
 
