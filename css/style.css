@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(27, 27, 27);
   }
   
   h1 {
@@ -47,6 +47,20 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
+
+  /*Solar panel Page*/
+  .paras {
+    display: flex; 
+    max-width: 60%; 
+    margin: 20px auto; 
+    align-items: center; 
+}
+
+.paratext {
+  flex: 1; 
+  margin-left: 10px; 
+}
+
   
   /* Hydro page */            
   
