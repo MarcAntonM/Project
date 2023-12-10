@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Solar Panel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -34,17 +34,66 @@
       </nav>
       <h1>The History of Solar Panels</h1>
 
-    <p>The story of panels is an account of scientific exploration, technological progress and the pursuit of environmentally friendly energy solutions.</p>
 
+    <div class="paras">
+      <div class="paratext">
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/house with solar.jpg" class="d-block w-100" alt="solarpanel">
+            </div>
+            <div class="carousel-item">
+              <img src="images/greenenergy.png" class="d-block w-100" alt="solarpanel">
+            </div>
+            <div class="carousel-item">
+              <img src="images/cleaning.jpg" class="d-block w-100" alt="solarpanel">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      <p>The story of panels is an account of scientific exploration, technological progress and the pursuit of environmentally friendly energy solutions.</p>
+      <h2 id="Heading">The start of Solar Panels</h3>
       <p>It all started in the century when French physicist Alexandre Edmond Becquerel made a discovery in 1839. He observed the effect, which involves converting light into electricity. Becquerel noticed that specific materials generated an current when illuminated.This finding provided the foundation, for experiments, which eventually resulted in American inventor Charles Fritts creating the solar cell in 1883. Fritts applied a layer of gold to selenium resulting in a device of generating electricity from sunlight. Nevertheless these early solar cells proved to be both inefficient and costly.</p>
-
+      <h2>Further Research</h2>
       <p>During the, to mid 20th century extensive research and development in technology took place. However it was not until the 1950s that significant advancements were achieved. A remarkable breakthrough occurred when Bell Laboratories in the United States introduced the silicon cell, which proved to be more efficient than previous designs. This pivotal moment marked a turning point in technology making it more practical for a range of applications.The progress in panel development gained more momentum during the space race of the 1960s. In 1958 solar panels were successfully utilized to power pioneering satellites like Vanguard 1. This remarkable achievement showcased the reliability and immense potential of energy, for space exploration.</p>
-
       <p>With advancements, in technology its usage extended beyond space missions. In the 1970s the oil crisis sparked a surge in curiosity for energy sources resulting in investments in solar research and development. Governments and private sectors started delving into power as a choice, for generating electricity.During the 1980s there were developments, in panel technology and manufacturing methods. Breakthroughs such, as film cells and enhanced silicon based panels played a crucial role in making solar energy more readily available and affordable.</p>
-
+      <h2>Solar Panels Now</h2>
       <p>In years the solar industry has experienced expansion. Thanks, to advancements in technology and reduced production costs solar power has become a alternative to traditional fossil fuels. Governments worldwide have introduced incentives and subsidies to encourage the use of energy resulting in widespread installations, in homes and businesses alike.</p>
-
       <p>Nowadays there are types and setups of panels available ranging from the classic silicon based photovoltaic panels, to thin film and concentrated solar power systems. Ongoing research aims to improve efficiency lower costs and discover materials and designs that can optimize the utilization of energy.The evolution of panels tells a story of innovation and determination motivated by the need, for clean and renewable energy sources to tackle the issues posed by climate change and sustainable energy generation.</p>
+      <button onclick="showfacts()">Click for a Fact</button>
+      <p id="facts"></p>
+      <script>
+        function showfacts() {
+          var messages = [
+            "Advancements in battery storage technology, such as solar batteries, allow excess energy generated during the day to be stored for use during evenings or cloudy days.",
+            "Solar panel installations create jobs in manufacturing, installation, maintenance, and research, contributing to economic growth and employment opportunities.",
+            "Solar panels can provide electricity in remote areas without access to a power grid, offering a reliable energy source for homes, schools, and businesses.",
+            "The solar energy industry has seen remarkable growth globally, with decreasing costs of solar panels contributing to their widespread adoption.",
+            "With net metering, surplus energy generated by solar panels can be fed back into the grid, allowing homeowners to earn credits or reduce their utility bills.",
+            "Solar panels generally require minimal maintenance. Regular cleaning to remove dirt and debris can help maintain their efficiency.",
+            "Solar panels can be installed on rooftops, ground-mounted in open areas, or even integrated into building designs, making them adaptable to various locations and structures."
+          ];
+  
+          var randomIndex = Math.floor(Math.random() * messages.length);
+    
+          document.getElementById("facts").innerHTML = messages[randomIndex];
+        }
+      </script>
+  </div>
+  </div>
   </body>
 
   </body>
