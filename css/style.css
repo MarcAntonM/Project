@@ -159,5 +159,14 @@ body {
     width: 100%;
     margin-left: 35%;
   }
+
+#textSection {
+  color: rgb(92, 92, 92);
+}
+
+h4 {
+  text-decoration: underline;
+}
+
   
   
