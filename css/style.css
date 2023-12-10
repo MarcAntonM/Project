@@ -144,3 +144,20 @@ body {
 .wtHidden {
       display: none;
 }
+
+  /* Quiz */
+  #question{
+    color: red;
+  }
+
+  #qContainer{
+    text-align: center;
+    border: 2px solid greenyellow;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    margin-left: 35%;
+  }
+  
+  
